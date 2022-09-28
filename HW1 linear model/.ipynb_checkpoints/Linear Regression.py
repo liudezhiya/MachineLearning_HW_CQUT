@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# @File    : line.py
+# @File    : Linear Regression.py
 # @Date    : 2022-09-27
 # @Author  : 刘德智
 # @Describe  :线性回归
