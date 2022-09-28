@@ -67,8 +67,7 @@ plt.show()
 y_pred = np.matmul(X_test, w)
 plt.scatter(X_test[:,0],y_pred,c='r')
 plt.scatter(X_test[:,0],y_test,c='b')
-plt.show()
+
 
 plt.scatter(X_test[:,1],y_pred,c='r')
 plt.scatter(X_test[:,1],y_test,c='b')
-plt.show()
