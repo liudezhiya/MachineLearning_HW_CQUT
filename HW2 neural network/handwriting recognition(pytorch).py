@@ -3,7 +3,7 @@
 # @File    : handwriting recognition(pytorch).py
 # @Date    : 2022-10-10
 # @Author  : 刘德智
-# @Describe  : MNIST手写体数字识别
+# @Describe  : MNIST手写体数字识别https://blog.51cto.com/u_14824425/5707769
 import torch
 from torch import nn
 from torch.nn import functional as F
@@ -14,6 +14,11 @@ from matplotlib import pyplot as plt
 # from utils import plot_image,plot_curve,one_hot
 # from torch_study.lesson5_minist_train.utils import plot_curve, plot_image, plt, one_hot
 def plot_curve(data):
+    '''
+    #绘制损失曲线
+    :param data:
+    :return:
+    '''
     fig = plt.figure()
     plt.plot(range(len(data)),data,color = 'blue')
     plt.legend(['value'],loc = 'upper right')
