@@ -40,5 +40,5 @@ Iris也称鸢尾花卉数据集，是一类多重变量分析的数据集。数�
 ```
 from sklearn.datasets import load_iris
 X, y = load_iris(return_X_y=True)
-```
+```1
 
